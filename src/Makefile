@@ -1,5 +1,5 @@
 #CFLAGS= -lssl -lcrypto -lpcap  -static -O3
-OBJ=njit-client
+OBJ=njitclient
 
 all:
 		$(CC) $(LDFLAGS) $(CFLAGS) main.c \
